@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  color: white;
+  height: 100vh;
+}
+
+.info--content > h1{
+  font-size: 25px;
+  margin-bottom: .2em;
+}
+
+.info--content--job-title {
+  font-size: 13px;
+  color: #F3BF99;
+  margin: 0;
+}
+
+.info--content--email{
+  font-size: 10px;
+}
+
+.btn--div {
+  display: flex;
+  width: 247px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.email-btn,
+.link-btn {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+.email-btn {
+  background-color: #D1D5DB;
+  color: #374151;
+}
+
+.link-btn {
+  background-color: #5093E2;
+  color: white;
+}
+
+.email-btn img,
+.link-btn img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+.about,
+.interests {
+  width: 247px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about {
+  margin-top: 2em;
+}
+
+.interests {
+  margin-bottom: 2em;
+}
+
+.about > h2,
+.interests > h2 {
+  font-size: 16px;
+  color: #F5F5F5;
+  margin-bottom: 0;
+}
+
+.about > p,
+.interests > p {
+  font-size: 10px;
+  color: #DCDCDC;
+  line-height: 1.5;
+}
+
+.social--div {
+  width: 100%;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.social--div > img{
+  height: 25px;
+  width: 25px;
+}
